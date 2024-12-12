@@ -1,0 +1,52 @@
+/*  Etiqueta */
+
+h1 {
+  color: blueviolet;
+  text-align: center;
+}
+
+h2{
+  color: #045eff;
+}
+
+p {
+  color: crimson;
+}
+/* Selector por clase */
+.colorearblueviolet{
+  color: blueviolet;
+}
+
+.cambiarFuente{
+  font-family: Helvetica, Serif;
+  font-size: 30px;
+
+}
+
+.borde{
+  border-style: dashed;
+  font-size: 25px;
+  color: black;
+  background: aquamarine;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+/* Selector por ID */
+#titulo{
+  color: chocolate;
+  text-align: right;
+  border-style: dotted;
+  padding: 55px;
+}
+
+#titulo:hover{
+  font-size: 35px;
+  color: fuchsia;
+
+}
+
+table, th, td {
+  border: 1px solid black;
+}

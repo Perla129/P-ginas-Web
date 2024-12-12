@@ -1,0 +1,164 @@
+<h1 id= "titulo" class=" colorearblueviolet borde">BIENVENIDO A MI  APP</h1>
+<h1>DESARROLLO DE APPS</h1>
+<h2>RIVERA LÁZARO</h2>
+<h3>FUND. PROGRAMACIÓN</h3>
+<h3><u> Hola, {{ title }}</u></h3>
+<h3><u> Edad {{ edad }}</u></h3>
+
+<button (click)="aumentaredad()">Aumentar la edad</button>
+<button (click)="reeduciredad()">Reducir la edad</button>
+<button (click)="CambiarNombre()"> Cambiar Nombre</button>
+<p>
+  ¿Qué es Angular? <br> Es un <strong> framework </strong> de <i> ingeniería </i> de software
+  de código abierto que se utiliza para crear aplicaciones web de una sola página.
+  Los desarrolladores también lo utilizan para crear menús animados para páginas web <small>HTML</small>.
+
+</p>
+<a href="https://download.macupdate.com/app/mac/64347/drawio-desktop/download"> IR
+  <br>
+  <img  width="500px" height="250px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjVsNCOKhVnhQSwkh3PMFFw-zDfIE9t0738A&s" alt="un atardecer en la playa">
+</a>
+<br>
+
+<ul>
+  <li class="colorearblueviolet cambiarFuente"><a href="http://minatitlan.tecnm.mx/"><strong>Tec Mina</strong></a></li>
+  <li class="cambiarFuente"><a href="https://itesco.edu.mx/Web/inicio/"> <i>ITESCO</i></a></li>
+  <li class="borde"><a href="https://www.uv.mx/"><mark>UV</mark></a></li>
+  <li class=" colorearblueviolet">desordenada</li>
+  <li>biñetas</li>
+</ul>
+<ol>
+  <h3>Lista de colores</h3>
+  <li class="colorearblueviolet cambiarFuente">Azul </li>
+  <li><u>Amarillo</u></li>
+  <li class="cambiarFuente"><strong> Rojo</strong></li>
+  <li><i> Morado </i></li>
+</ol>
+<p>
+<input type="text">
+<input type="search">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+</p>
+
+<table style="width:100%">
+  <tr>
+    <th>Kevin</th>
+    <th>Talina</th>
+    <th>Isaac</th>
+  </tr>
+  <tr>
+    <td>Programación</td>
+    <td>Finanzas</td>
+    <td>Cálculo</td>
+  <tr>
+    <td>10:00</td>
+    <td>12:00</td>
+    <td><input type="text"></td>
+  </tr>
+</table>
+
+<html lang="en">
+<head>
+  <title>CSS Template</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Style the header */
+    header {
+      background-color: #666;
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+      color: white;
+    }
+
+    /* Create two columns/boxes that floats next to each other */
+    nav {
+      float: left;
+      width: 30%;
+      height: 300px; /* only for demonstration, should be removed */
+      background: #ccc;
+      padding: 20px;
+    }
+
+    /* Style the list inside the menu */
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    article {
+      float: left;
+      padding: 20px;
+      width: 70%;
+      background-color: #f1f1f1;
+      height: 300px; /* only for demonstration, should be removed */
+    }
+
+    /* Clear floats after the columns */
+    section::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Style the footer */
+    footer {
+      background-color: #777;
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
+
+    /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+    @media (max-width: 600px) {
+      nav, article {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<h2>Tabla</h2>
+<header>
+  <h2>Encabezado</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Numero 1</a></li>
+      <p>
+      <li><img width="200px" height="150px" src="data:image/png;base64,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" alt="numero 1"></li>
+      </p>
+    </ul>
+  </nav>
+
+  <article>
+    <h1>Numeros </h1>
+    <p>Los números son abstracciones, ideas o conceptos creados por el ser humano para representar, principalmente, las cantidades y las magnitudes.</p>
+    <p>Los números constituyen una de las primeras invenciones de la humanidad y jugaron un rol importante en la creación de la escritura; desde entonces son vitales para el pensamiento científico y para la vida diaria de las civilizaciones.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Final</p>
+</footer>
+
+</body>
+</html>
+
+
+
